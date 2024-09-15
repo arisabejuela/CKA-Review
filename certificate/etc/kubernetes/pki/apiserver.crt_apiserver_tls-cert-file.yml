@@ -1,0 +1,62 @@
+# kube-apiserver Server Certificate
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 6122627967257046081 (0x54f7f1b2783a6c41)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN = kubernetes
+        Validity
+            Not Before: Sep 15 01:39:29 2024 GMT
+            Not After : Sep 15 01:44:30 2025 GMT # Kube-API Server Certificate valid until
+        Subject: CN = kube-apiserver # Common Name (CN) configured on the Kube API Server Certificate
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:a5:4b:fb:5e:b6:2e:03:51:7d:e3:b7:5f:04:f6:
+                    f7:91:74:80:26:0b:14:6e:a0:e8:5d:99:08:ba:8c:
+                    cd:61:e8:c1:b0:0c:ea:23:a6:ec:8e:f3:8e:bb:9e:
+                    de:49:b4:ee:08:c0:e1:9b:b5:8b:4d:8d:9b:1f:84:
+                    08:19:b3:3c:4e:2e:36:2a:7e:69:38:6f:bd:e5:4c:
+                    2d:9e:f3:dd:66:75:24:6a:e4:12:28:16:bc:60:83:
+                    96:d8:a2:74:3e:a0:6a:d6:4f:89:02:6c:da:7e:c5:
+                    97:1e:59:b5:0f:1b:2f:39:ae:f2:2e:60:8a:40:86:
+                    87:cb:de:c3:6d:7a:25:b8:06:96:ad:64:ad:7f:a7:
+                    e3:29:a8:c8:73:df:6d:ce:30:ed:57:9e:b1:ff:f9:
+                    ad:b0:41:87:d2:4f:8f:73:fd:b4:04:a3:f6:11:bf:
+                    4a:4a:fe:30:48:e3:00:66:ff:9c:07:5b:03:6d:a1:
+                    d2:33:03:63:11:28:7b:f4:67:61:1e:8b:27:16:98:
+                    37:2c:41:0b:32:b0:36:13:77:75:f9:a0:07:bf:56:
+                    1c:5c:9f:51:86:41:66:c7:e5:50:ca:8f:2c:df:21:
+                    bb:3c:4c:a6:64:7a:2c:0c:e4:f8:1b:e4:e3:19:d4:
+                    01:e6:77:42:1c:8f:49:87:17:97:b1:dc:f8:1f:a0:
+                    71:bd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                2E:33:37:8B:81:3C:C8:1A:14:08:07:7A:41:0E:C9:CE:2D:A4:AA:02
+            X509v3 Subject Alternative Name: # Aleternate name of kube-api server
+                DNS:controlplane, DNS:kubernetes, DNS:kubernetes.default, DNS:kubernetes.default.svc, DNS:kubernetes.default.svc.cluster.local, IP Address:10.96.0.1, IP Address:192.2.254.6
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        95:b8:b5:26:9e:d9:33:f7:42:79:5d:21:2d:ec:4f:a1:6c:47:
+        b7:d9:70:57:28:1a:62:c4:32:63:73:95:96:f0:d3:20:6e:4c:
+        d2:c5:57:8c:b4:84:54:ef:1e:75:9e:58:48:48:c0:26:95:00:
+        34:84:24:e7:52:ea:f6:84:ca:ef:7c:87:fc:3c:99:30:57:8d:
+        ff:f6:a8:7c:b2:b1:f0:6a:a2:53:1d:d7:20:cd:00:e4:f8:4d:
+        a9:b8:43:24:f4:44:04:d0:85:84:81:68:4a:fa:4a:fd:72:b4:
+        7f:e1:19:23:4c:35:1d:51:35:1c:00:f9:31:1a:ca:a3:62:0d:
+        94:ac:68:fa:24:40:43:20:95:0c:e1:fe:c9:d3:f7:b1:6f:58:
+        7a:e3:11:c1:f7:eb:f3:60:8f:9d:fc:bb:e8:2c:dd:b0:2d:8e:
+        17:59:82:03:31:e8:aa:2f:71:88:8e:54:c5:85:57:96:ff:2d:
+        1f:65:cf:cb:9f:09:5e:c2:34:02:f8:79:49:16:bb:f7:38:a2:
+        a3:c6:09:a9:e7:fd:27:54:84:af:ef:46:05:5a:e7:72:93:7a:
+        70:5c:7a:f2:a7:fd:eb:62:b4:d5:ad:23:3a:7c:b1:e8:27:ca:
+        6e:70:df:99:e1:57:07:f5:48:93:51:d5:4f:eb:99:af:63:0d:
+        0f:dd:12:be
